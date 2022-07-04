@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tetrika_test_assignment"
+version = "0.1.0"
+description = ""
+authors = ["artur <shadaraevd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "^0.0.1"
+requests = "^2.28.1"
+lxml = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
